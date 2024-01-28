@@ -1,0 +1,76 @@
+.root {
+    -fx-background-color: #262626; /* Темный фон для всего окна */
+}
+
+.chart {
+    -fx-padding: 10;
+    -fx-background-color: #333;
+}
+
+.chart-content {
+    -fx-background-color: transparent;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.axis-label {
+    -fx-text-fill: white;
+}
+
+.axis {
+    -fx-tick-label-fill: white;
+    -fx-tick-mark-visible: false;
+}
+
+.line-chart .chart-series-line {
+    -fx-stroke: #e2a400;
+    -fx-stroke-width: 2px;
+}
+
+.line-chart .default-color0.chart-line-symbol {
+    -fx-background-color: #e2a400, white;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.category-axis .axis-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-fill: #e2a400;
+}
+
+.number-axis .axis-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-fill: #e2a400;
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.stats-box {
+    -fx-background-color: #333;
+    -fx-padding: 15px;
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+}
+
+.stats-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 5px;
+}
+
+.stats-value {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e2a400;
+    -fx-padding: 5px;
+}

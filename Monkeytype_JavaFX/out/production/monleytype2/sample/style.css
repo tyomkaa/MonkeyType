@@ -1,0 +1,61 @@
+/* Общие стили для приложения */
+.root {
+    -fx-background-color: #333;
+    -fx-font-family: "Consolas", "Monaco", monospace;
+    -fx-text-fill: #fff;
+}
+
+/* Стили для области меню */
+.menu-bar {
+    -fx-pref-width: 100%;
+}
+
+.menu-item {
+    -fx-background-color: #fff; /* Чуть светлее, чем общий фон, для видимости */
+    -fx-text-fill: #fff; /* Цвет текста элементов меню */
+}
+
+.menu-item:hover {
+    -fx-background-color: #555; /* Чуть светлее при наведении */
+    -fx-text-fill: #fff; /* Белый цвет текста при наведении */
+}
+
+/* Стили для нижней панели с информацией о горячих клавишах */
+.bottom-container {
+    -fx-background-color: #333;
+    -fx-padding: 10px;
+}
+
+.hotkeys-info {
+    -fx-text-fill: #fff;
+    -fx-font-size: 12px;
+}
+
+/* Стили для таймера */
+.timer-label {
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+    -fx-padding: 10px;
+}
+
+.language-label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+// Add other styles as needed
+}
+
+
+.text-flow {
+    -fx-font-size: 30px; /* Увеличиваем размер шрифта */
+    -fx-control-inner-background: #333; /* Цвет фона */
+    -fx-font-family: "Consolas", "Monaco", monospace; /* Шрифт моноширинный для лучшего визуального отображения текста */
+    -fx-highlight-fill: #9ab; /* Цвет выделения */
+    -fx-highlight-text-fill: #000; /* Цвет текста выделения */
+    -fx-text-fill: #fff; /* Цвет обычного текста */
+}
+
+.text-flow .content {
+    -fx-padding: 20px; /* Отступы внутри TextArea */
+}
+
+
